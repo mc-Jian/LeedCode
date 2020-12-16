@@ -1,8 +1,11 @@
-// 1 两数之和 简单
 /**
  * @param {number[]} num
  * @param {number} target
  * @return {number[]}
+ * 测试用例
+ * 输入： [2,7,11,15]  9
+ *预期输出：  [0,1]
+ * 
  */
 function sum(num, target) {
     for (let i=0; i<num.length-1; i++){
